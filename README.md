@@ -1,7 +1,3 @@
-# Gothcam
-
-Gothcam est une application de traitement d'image en temps réel utilisant OpenCV. Elle permet de détecter des visages et d'appliquer des filtres sur les flux vidéo capturés par une webcam.
-
 ![Logo Gothcam](Leonardo_Phoenix_Create_an_icon_for_the_Gothcam_application_a_2.jpg)
 
 ## Fonctionnalités
