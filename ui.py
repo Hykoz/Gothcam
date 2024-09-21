@@ -8,10 +8,9 @@ from PIL import Image, ImageTk
 import ctypes
 
 # Configuration de la fenêtre principale avec ttkthemes
-root = ThemedTk(theme="equilux")
+root = ThemedTk(theme="blue")
 root.title("Gothcam - Become Batman.")
-root.configure(bg='#2d2d30')
-
+root.configure(bg='#242424')
 
 # Texte ASCII
 banner = """
@@ -28,11 +27,11 @@ banner = """
 """
 
 # Affichage du texte ASCII
-ascii_label = tk.Label(root, text=banner, font=("Courier", 10), bg='#2d2d30', fg='white')
+ascii_label = tk.Label(root, text=banner, font=("Courier", 10), bg='#242424', fg='#c4d0d6')
 ascii_label.pack()
 
 # Canevas pour afficher la vidéo
-canvas = tk.Canvas(root, width=640, height=480, bg='#2d2d30')
+canvas = tk.Canvas(root, width=640, height=480, bg='#242424')
 canvas.pack()
 
 # Barre de chargement
