@@ -22,10 +22,10 @@
 
 2. Installez les dépendances :
     ```bash
-    pip install opencv-python-headless
+    pip install -r requirements.txt
     ```
 
-3. Assurez-vous que les fichiers nécessaires sont présents dans le répertoire `_internal` :
+3. Assurez-vous que les fichiers nécessaires sont présents dans le répertoire:
     - `haarcascade_frontalface_default.xml`
     - `filter.png`
 
@@ -41,17 +41,7 @@
 ## Structure du projet
 
 - `ui.py` : Contient l'interface utilisateur et les fonctions d'initialisation.
-- `_internal/` : Contient les fichiers nécessaires pour la détection de visage et les filtres.
-
-## Dépannage
-
-- **Erreur lors du chargement de l'image `filter.png`** :
-    - Assurez-vous que le fichier `filter.png` est présent dans le répertoire `_internal`.
-    - Vérifiez que le chemin d'accès au fichier est correct.
-
-- **Erreur lors de l'ouverture de la webcam** :
-    - Assurez-vous que votre webcam est correctement connectée et fonctionne.
-    - Vérifiez les permissions d'accès à la webcam sur votre système.
+- `no_ui.py` : Contient l'interface utilisateur (cmd) et les fonctions d'initialisation.
 
 ## Contribuer
 
@@ -60,5 +50,3 @@ Les contributions sont les bienvenues ! Veuillez soumettre une pull request ou o
 ## Licence
 
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
-![Capture d'écran de l'application](images/screenshot.png)
